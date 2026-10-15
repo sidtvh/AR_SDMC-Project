@@ -25,17 +25,15 @@
       <a-assets>
       <!-- Force browser to look in current folder -->
       <audio id="chicken-audio" src="./hiro.mp3" preload="auto"></audio>
-      <a-asset-item id="chicken-model" src="./chicken.glb"></a-asset-item>
+      <a-asset-item id="camera-model" src="./mastertux.glb"></a-asset-item>
       </a-assets>
 
       <!-- Target Marker (Hiro) -->
       <a-marker preset="hiro" id="marker">
-  <!-- Test Cube: If this appears, your marker tracking is working -->
-  <a-box position="0 0.5 0" color="red" scale="0.2 0.2 0.2"></a-box>
 
   <!-- 3D Chicken Model -->
   <a-gltf-model 
-    src="./chicken.glb" 
+    src="./mastertux.glb" 
     position="0 0 0" 
     scale="0.01 0.01 0.01">
   </a-gltf-model>
